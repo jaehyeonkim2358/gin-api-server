@@ -2,10 +2,11 @@ package database
 
 import (
 	"context"
-	"example/gin-api-server/ent"
 	"fmt"
 	"log"
 	"sync"
+
+	"github.com/jaehyeonkim2358/gin-api-server/ent"
 
 	_ "github.com/go-sql-driver/mysql"
 )

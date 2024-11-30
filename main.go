@@ -1,8 +1,8 @@
 package main
 
 import (
-	"example/gin-api-server/database"
-	"example/gin-api-server/routes"
+	"github.com/jaehyeonkim2358/gin-api-server/database"
+	"github.com/jaehyeonkim2358/gin-api-server/routes"
 
 	"github.com/gin-gonic/gin"
 )

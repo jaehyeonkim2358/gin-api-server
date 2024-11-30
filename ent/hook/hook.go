@@ -4,7 +4,7 @@ package hook
 
 import (
 	"context"
-	"example/gin-api-server/ent"
+	"github.com/jaehyeonkim2358/gin-api-server/ent"
 	"fmt"
 )
 

@@ -4,8 +4,8 @@ package ent
 
 import (
 	"context"
-	"example/gin-api-server/ent/board"
-	"example/gin-api-server/ent/predicate"
+	"github.com/jaehyeonkim2358/gin-api-server/ent/board"
+	"github.com/jaehyeonkim2358/gin-api-server/ent/predicate"
 	"fmt"
 	"math"
 

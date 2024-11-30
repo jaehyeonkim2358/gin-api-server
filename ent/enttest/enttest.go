@@ -5,11 +5,11 @@ package enttest
 import (
 	"context"
 
-	"example/gin-api-server/ent"
+	"github.com/jaehyeonkim2358/gin-api-server/ent"
 	// required by schema hooks.
-	_ "example/gin-api-server/ent/runtime"
+	_ "github.com/jaehyeonkim2358/gin-api-server/ent/runtime"
 
-	"example/gin-api-server/ent/migrate"
+	"github.com/jaehyeonkim2358/gin-api-server/ent/migrate"
 
 	"entgo.io/ent/dialect/sql/schema"
 )

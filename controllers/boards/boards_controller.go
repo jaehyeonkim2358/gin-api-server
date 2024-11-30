@@ -1,10 +1,11 @@
 package boards
 
 import (
-	"example/gin-api-server/ent"
 	"log"
 	"net/http"
 	"strconv"
+
+	"github.com/jaehyeonkim2358/gin-api-server/ent"
 
 	"github.com/gin-gonic/gin"
 	"github.com/pkg/errors"

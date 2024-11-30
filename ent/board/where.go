@@ -3,7 +3,7 @@
 package board
 
 import (
-	"example/gin-api-server/ent/predicate"
+	"github.com/jaehyeonkim2358/gin-api-server/ent/predicate"
 
 	"entgo.io/ent/dialect/sql"
 )
