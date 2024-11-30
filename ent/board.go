@@ -3,7 +3,7 @@
 package ent
 
 import (
-	"example/gin-api-server/ent/board"
+	"github.com/jaehyeonkim2358/gin-api-server/ent/board"
 	"fmt"
 	"strings"
 

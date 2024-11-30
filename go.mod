@@ -1,4 +1,4 @@
-module example/gin-api-server
+module github.com/jaehyeonkim2358/gin-api-server
 
 go 1.23.0
 

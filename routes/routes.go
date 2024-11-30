@@ -1,9 +1,9 @@
 package routes
 
 import (
-	"example/gin-api-server/controllers/boards"
-	"example/gin-api-server/database"
-	httperrorhandler "example/gin-api-server/middleware/http_error_handler"
+	"github.com/jaehyeonkim2358/gin-api-server/controllers/boards"
+	"github.com/jaehyeonkim2358/gin-api-server/database"
+	httperrorhandler "github.com/jaehyeonkim2358/gin-api-server/middleware/http_error_handler"
 
 	"github.com/gin-gonic/gin"
 )

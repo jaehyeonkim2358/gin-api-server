@@ -9,9 +9,9 @@ import (
 	"log"
 	"reflect"
 
-	"example/gin-api-server/ent/migrate"
+	"github.com/jaehyeonkim2358/gin-api-server/ent/migrate"
 
-	"example/gin-api-server/ent/board"
+	"github.com/jaehyeonkim2358/gin-api-server/ent/board"
 
 	"entgo.io/ent"
 	"entgo.io/ent/dialect"
