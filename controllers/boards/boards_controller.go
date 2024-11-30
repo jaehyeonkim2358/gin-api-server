@@ -77,25 +77,3 @@ func Update(c *gin.Context, client *ent.Client) {
 
 	c.IndentedJSON(http.StatusOK, updatedBoard)
 }
-
-// curl http://localhost:8888/api/boards \
-//     --include \
-//     --header "Content-Type: application/json" \
-//     --request "POST" \
-//     --data '{"title": "첫 게시글","content": "안녕하세요!"}'
-
-// curl http://localhost:8888/api/boards \
-//     --include \
-//     --header "Content-Type: application/json" \
-//     --request "GET"
-
-// curl http://localhost:8888/api/boards/3 \
-//     --include \
-//     --header "Content-Type: application/json" \
-//     --request "GET"
-
-// curl http://localhost:8888/api/boards/3 \
-//     --include \
-//     --header "Content-Type: application/json" \
-//     --request "PATCH" \
-//     --data '{"title": "세번째 게시글","content": "반가워요!"}'

@@ -41,5 +41,3 @@ func serverInfo() string {
 	databaseName := "gin_test"
 	return fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?parseTime=True", user, pass, host, port, databaseName)
 }
-
-// $ git clone git@jaehyeon-2358-GitHub:jaehyeonkim2358/gin-api-server.git
